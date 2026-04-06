@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/PopoviciMarian/test_ci_safe_chain-#readme",
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "glob": "^10.5.0"
   }
 }
