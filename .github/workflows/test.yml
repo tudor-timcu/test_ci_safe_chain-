@@ -16,5 +16,4 @@ jobs:
 
       - name: safe-chain setup
         run: |
-          npm i -g @aikidosec/safe-chain
-          safe-chain setup-ci --include-python
+          curl -fsSL https://github.com/AikidoSec/safe-chain/releases/download/x.x.x/install-safe-chain.sh | sh
